@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead{background-color: lightskyblue;
+        color: white;
+    }
+
+        tbody{
+            background-color: honeydew;
+        }
+        tfoot{
+            background-color: gray;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mais Tabelas</h1>
+
+    <table border="1">
+        <caption>Listagem de produtos</caption>
+        <thead>
+            <tr>
+                <th colspan="">Produto</th>
+                <th>quantidade</th>
+                <th>preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>notebook</td>
+                <td>1</td>
+                <td>R$ 2000</td>
+            </tr>
+    
+            <tr>
+                <td>tablet</td>
+                <td>2</td>
+                <td>R$ 1000</td>
+            </tr>
+    
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">cupon 1-R$ 20</td>
+                
+            </tr>
+    
+            <tr>
+                <td colspan="2">cupon 2-R$ 20</td>  
+            </tr>
+    
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$ 4000</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+
+</html>
