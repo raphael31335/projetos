@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
@@ -109,3 +110,63 @@ body {
     margin-top: 10px;
 }
 
+#quemSomos {
+    display: flex;          
+    align-items: center;     
+    gap: 20px;             
+    padding: 20px;
+  }
+  #quemSomos img {
+    width: 15%;
+    border-radius: 15px;
+   
+  }
+  #quemSomos .texto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  #quemSomos .texto h2 {
+    text-align: center;
+    color: var(--corTexto);
+    margin-top: 15px;
+  }
+
+  #quemSomos hr{
+    color: var(--corTitulo);
+  }
+
+  footer {
+    display: flow-root;            
+    justify-content: center;   
+    padding: 20px;              
+    background-color: var(--barra);
+    flex-direction: row;    
+    text-align: center;         
+  }
+
+  footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .fotoTabela {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+th, td {
+    vertical-align: middle;
+}
+
+  table {
+    width: 75%;
+    margin: 0 auto 0.5em; /* 0 auto centraliza horizontalmente */
+    table-layout: fixed;
+    text-align: center;
+}
