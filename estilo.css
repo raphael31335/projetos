@@ -166,7 +166,122 @@ th, td {
 
   table {
     width: 75%;
-    margin: 0 auto 0.5em; /* 0 auto centraliza horizontalmente */
+    margin: 0 auto 0.5em; 
     table-layout: fixed;
     text-align: center;
+}
+
+ a{
+    color: var(--corTitulo);
+}
+
+/* contato */
+
+#containerContato{
+    width: 100%;
+    display: flex;
+}
+
+
+#containerContato img{
+    width: 60%;
+    padding: 15px;
+}
+
+#containerContato form h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: var(--corTitulo);
+}
+
+#containerContato form{
+    width: 60%;
+    padding: 15px;
+}
+
+#containerContato form #line1{
+    width: 100%;
+}
+
+#containerContato form #line1 input{
+    width: 65%;
+    padding: 10px;
+}
+
+#containerContato form #line2{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#containerContato form #line2 input{
+    padding: 10px;
+}
+
+#containerContato form #line2 input {
+    width: 65%;
+}
+
+
+#containerContato form #line2 #rua{
+    width: 50%;
+}
+
+#containerContato form #line2 #numero{
+    width: 80px;
+}
+
+#containerContato form #line2 #bairro{
+    width: 20%;
+}
+
+#containerContato form #line2 #cidade{
+    width: 20%;
+}
+
+#containerContato form #line3{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#containerContato form #line3 #email,#telefone{
+    width: 50%;
+    
+}
+
+#containerContato img{
+    border-radius: 90%;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+#containerContato form #line4{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#containerContato form #line4 #mensagem{
+    width: 82%;
+}
+
+#containerContato form #line5 #botao{
+    width: 200px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: var(--corBotao);
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 15px;
+}
+
+#containerContato form #line5 #botao:hover{
+    background-color: var(--barra);
 }
